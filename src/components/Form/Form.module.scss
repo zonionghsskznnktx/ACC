@@ -1,0 +1,39 @@
+.wraper-input {
+    margin-bottom: 25px;
+}
+.input-label {
+    font-weight: 500;
+    color: #4c4e53;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.agree {
+    font-weight: 500;
+    color: grey;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: left;
+    span {
+        color: #447dfd;
+    }
+}
+.area {
+    width: 95%;
+    height: 80px;
+    padding: 20px 15px;
+    font-size: 14px;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 10px;
+}
+.p-area {
+    color: gray;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+.send-btn {
+    margin-bottom: 20px;
+}

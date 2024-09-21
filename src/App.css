@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    background-color: #ebf6f9;
+}
+h2 {
+    margin: 0;
+}
+p {
+    font-size: 15px;
+    color: #3e4348;
+}
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    z-index: 100;
+}
+.ReactModal__Overlay *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+.ReactModal__Overlay *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}

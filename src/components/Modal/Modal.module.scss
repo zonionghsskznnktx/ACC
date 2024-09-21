@@ -1,0 +1,14 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.close-icon {
+    cursor: pointer;
+}
+.logo {
+    text-align: center;
+}

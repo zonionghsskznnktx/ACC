@@ -1,0 +1,31 @@
+.wraper {
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+.center {
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    p {
+        margin: 5px !important;
+    }
+    .group {
+        margin-top: 3px;
+        color: #464c52cc;
+    }
+}
